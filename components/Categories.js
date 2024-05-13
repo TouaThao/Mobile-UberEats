@@ -6,27 +6,27 @@ const items = [
     text: "Pick-up",
   },
   {
-    image: require("../Assets/images/soft-drink.png"),
+    image: require("../Asset/images/soft-drink.png"),
     text: "Soft Drinks",
   },
   {
-    image: require("../Assets/images/bread.png"),
+    image: require("../Asset/images/bread.png"),
     text: "Bakery Items",
   },
   {
-    image: require("../Assets/images/fast-food.png"),
+    image: require("../Asset/images/fast-food.png"),
     text: "Fast Foods",
   },
   {
-    image: require("../Assets/images/deals.png"),
+    image: require("../Asset/images/deals.png"),
     text: "Deals",
   },
   {
-    image: require("../Assets/images/coffee.png"),
+    image: require("../Asset/images/coffee.png"),
     text: "Coffee & Tea",
   },
   {
-    image: require("../Assets/images/desserts.png"),
+    image: require("../Asset/images/desserts.png"),
     text: "Desserts",
   },
 ];
