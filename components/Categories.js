@@ -1,32 +1,32 @@
-import { View, Text } from "react-native";
+import { View, Text, Image } from "react-native";
 import React from "react";
 const items = [
   {
-    image: require("../Asset/images/shopping-bag.png"),
+    image: require("../assets/images/shopping-bag.png"),
     text: "Pick-up",
   },
   {
-    image: require("../Asset/images/soft-drink.png"),
+    image: require("../assets/images/soft-drink.png"),
     text: "Soft Drinks",
   },
   {
-    image: require("../Asset/images/bread.png"),
+    image: require("../assets/images/bread.png"),
     text: "Bakery Items",
   },
   {
-    image: require("../Asset/images/fast-food.png"),
+    image: require("../assets/images/fast-food.png"),
     text: "Fast Foods",
   },
   {
-    image: require("../Asset/images/deals.png"),
+    image: require("../assets/images/deals.png"),
     text: "Deals",
   },
   {
-    image: require("../Asset/images/coffee.png"),
+    image: require("../assets/images/coffee.png"),
     text: "Coffee & Tea",
   },
   {
-    image: require("../Asset/images/desserts.png"),
+    image: require("../assets/images/desserts.png"),
     text: "Desserts",
   },
 ];
@@ -34,11 +34,11 @@ const items = [
 export default function Categories() {
   return (
     <View>
-      <image
-        source={item[0].image}
+      <Image
+        source={items[0].image}
         style={{ width: 50, height: 40, resizeMode: "contain" }}
       />
-      <Text style={{ fontSize: 13, fontWeight: "900" }}>{item.text}</Text>
+      <Text style={{ fontSize: 13, fontWeight: "900" }}>{items[0].text}</Text>
     </View>
   );
 }
